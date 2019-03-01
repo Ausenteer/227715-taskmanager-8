@@ -1,3 +1,5 @@
+'use strict';
+
 const filtersSelector = document.querySelector(`.main__filter`);
 const boardSelector = document.querySelector(`.board__tasks`);
 
@@ -347,18 +349,18 @@ const getBoardItem = (color, text, isHashtag = false, isDate = false, isImage = 
 
 const renderFilters = (arr) => {
   arr.forEach((item) => {
-    filtersSelector.insertAdjacentHTML(`beforeEnd`, getFilterItem(item.name, item.number, item.isChecked, item.isDisabled));
+    filtersSelector.insertAdjacentHTML(`beforeend`, getFilterItem(item.name, item.number, item.isChecked, item.isDisabled));
   });
 };
 
 const renderBoards = (arr) => {
   arr.forEach((item) => {
-    boardSelector.insertAdjacentHTML(`beforeEnd`, getBoardItem(item.color, item.text, item.isHashtag, item.isDate, item.isImage));
+    boardSelector.insertAdjacentHTML(`beforeend`, getBoardItem(item.color, item.text, item.isHashtag, item.isDate, item.isImage));
   });
 };
 
 const getRandomElement = (array) => array[Math.floor(Math.random() * array.length)];
-const randomNum =  (max, min) => Math.floor(Math.random() * (max - min)) + min;
+const randomNum = (max, min) => Math.floor(Math.random() * (max - min)) + min;
 
 const getNewArrBoards = (min, max, arr) => {
   const rand = randomNum(min, max);

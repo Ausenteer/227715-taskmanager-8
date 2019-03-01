@@ -1,7 +1,7 @@
 # Личный проект «Менеджер задач» [![Build status][travis-image]][travis-url]
 
-* Студент: [Елена](https://up.htmlacademy.ru/ecmascript/8/user/227715).
-* Наставник: `Неизвестно`.
+* Студент: [Елена Ильина](https://up.htmlacademy.ru/ecmascript/8/user/227715).
+* Наставник: [Евгений](https://htmlacademy.ru/profile/id861059).
 
 ---
 

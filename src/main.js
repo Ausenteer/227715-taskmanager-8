@@ -5,28 +5,28 @@ const boardSelector = document.querySelector(`.board__tasks`);
 
 const filters = [
   {
-    name: `ALL`,
-    number: 22,
+    name: `ALL `,
+    number: ` 22`,
     isChecked: true
   }, {
-    name: `OVERDUE`,
+    name: `OVERDUE `,
     number: 4,
     isDisabled: true
   }, {
-    name: `TODAY`,
+    name: `TODAY `,
     number: 0,
     isDisabled: true
   }, {
-    name: `FAVORITES`,
+    name: `FAVORITES `,
     number: 4
   }, {
-    name: `REPEATING`,
+    name: `REPEATING `,
     number: 2
   }, {
-    name: `TAGS`,
+    name: `TAGS `,
     number: 5
   }, {
-    name: `ARCHIVE`,
+    name: `ARCHIVE `,
     number: 100
   }
 ];
